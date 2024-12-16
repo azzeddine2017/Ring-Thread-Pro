@@ -53,7 +53,7 @@ oThreads.joinThread(1)
 ---------------------------------------
 ```ring
 # مثال لاستخدام mutex
-mutex = oThreads.createMutex(1)  # mutex بسيط
+mutex = oThreads.createMutex(1) 
 oThreads.lockMutex(mutex)
 # العمليات المتزامنة هنا
 oThreads.unlockMutex(mutex)
